@@ -1,7 +1,5 @@
 <?php
 
-session_start();
-
 require 'youtubeDownloader.php';
 
 $url = 'https://www.youtube.com/watch?v=f7FR3eWucuI';
