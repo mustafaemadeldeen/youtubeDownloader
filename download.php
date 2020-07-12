@@ -1,7 +1,5 @@
 <?php
 
-	session_start();
-
 	$data	= (object)array(
 		'mimeType'	=> base64_decode( $_GET['mimetype'] ),
 		'title'			=> base64_decode( $_GET['title'] ),
